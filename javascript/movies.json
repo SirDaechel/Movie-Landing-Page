@@ -1,0 +1,77 @@
+{
+
+    "popular": [
+
+        {
+            "id": "1",
+            "title": "Avatar",
+            "img": "images/Avatar.jpg",
+            "year": "2022",
+            "duration": "3h12m"
+        },
+
+        {
+            "id": "2",
+            "title": "Avengers Endgame",
+            "img": "images/Avengers Endgame.jpg",
+            "year": "2019",
+            "duration": "3h2m"
+        },
+
+        {
+            "id": "3",
+            "title": "Maleficient",
+            "img": "images/Maleficient.jpg",
+            "year": "2019",
+            "duration": "1h58m"
+        },
+
+        {
+            "id": "4",
+            "title": "The godfather",
+            "img": "images/godfather.png",
+            "year": "1972",
+            "duration": "2h55m"
+        }
+
+    ],
+
+
+
+    "continueWatching": [
+
+        {
+            "id": "5",
+            "title": "Black Widow",
+            "img": "images/Black Widow.jpg",
+            "year": "2021",
+            "duration": "2h13m"
+        },
+
+        {
+            "id": "6",
+            "title": "The Batman",
+            "img": "images/The Batman.png",
+            "year": "2022",
+            "duration": "2h56m"
+        },
+
+        {
+            "id": "7",
+            "title": "Getout",
+            "img": "images/Getout.jpg",
+            "year": "2017",
+            "duration": "1h44m"
+        },
+
+        {
+            "id": "8",
+            "title": "Brave",
+            "img": "images/Brave.jpg",
+            "year": "2012",
+            "duration": "1h33m"
+        }
+
+    ]
+
+}

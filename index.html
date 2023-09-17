@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========================= SWIPWER JS ===========================-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--========================== BOXICON ==========================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Movie Landing Page</title>
+</head>
+
+<body>
+
+<main>
+<!--========================== 1ST SECTION ==========================-->
+    <!-- navbar -->
+    <section class="navbar">
+
+        <div class="navbar_to_fixed">
+
+
+            <div class="header_btn">
+    
+                <i class='bx bx-menu toggle_menu'></i>
+    
+                <div class="logo">
+                    <i class='bx bxs-camera-movie logoicon'></i>
+                    <h1 class="title">tellywit</h1>
+                </div>
+    
+                <div class="user_photo_nav_btn_header">
+                    <img class="user_photo" src="images/photo (1).png" alt="user photo" srcset="">
+                </div>
+    
+            </div>
+            
+            <div class="navbar_flex">
+    
+                <div class="navigation_btn">
+        
+                    <i class='bx bx-menu toggle_menu'></i>
+        
+                    <div class="logo">
+                        <i class='bx bxs-camera-movie logoicon'></i>
+                        <h1 class="title">tellywit</h1>
+                    </div>
+        
+                    <!-- <div class="user_photo_nav_btn">
+                        <img class="user_photo" src="images/photo (1).png" alt="user photo" srcset="">
+                    </div> -->
+        
+                </div>
+        
+                <div class="nav">
+        
+                    <div class="nav_main">
+        
+        
+                        <div class="nav_items">
+        
+                            <div class="nav1">
+        
+                                <h3 class="nav_title">Menu</h3>
+        
+                                <div class="nav_item">
+                                    <i class='bx bxs-home'></i>
+                                    <p class="nav_name">Home</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bxs-bar-chart-alt-2'></i>
+                                    <p class="nav_name">Discovery</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bx-group'></i>
+                                    <p class="nav_name">Community</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bx-stopwatch'></i>
+                                    <p class="nav_name">Coming soon</p>
+                                </div>
+        
+                            </div>
+        
+                            <div class="nav2">
+        
+                                <h3 class="nav_title">Library</h3>
+                                        
+                                <div class="nav_item">
+                                    <i class='bx bx-time'></i>
+                                    <p class="nav_name">Recent</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bx-bookmark-plus'></i>
+                                    <p class="nav_name">Bookmarked</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bx-star'></i>
+                                    <p class="nav_name">Top Rated</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bx-download' ></i>
+                                    <p class="nav_name">Downloaded</p>
+                                </div>
+        
+                            </div>
+        
+                            <div class="nav3">
+        
+                                <div class="nav_item">
+                                    <i class='bx bxs-cog'></i>
+                                    <p class="nav_name">Settings</p>
+                                </div>
+        
+                                <div class="nav_item">
+                                    <i class='bx bxs-info-circle'></i>
+                                    <p class="nav_name">Help</p>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="nav_footer">
+                        <i class='bx bx-exit'></i>
+                        <p class="logout">Logout</p>
+                    </div>
+    
+                    <i class='bx bx-x close'></i>
+        
+                </div>
+    
+    
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!--========================== 2ND SECTION ==========================-->
+
+<!--============== CATEGORY ================-->
+
+    <section class="category">
+
+        <div class="category_container">
+
+            <div class="category_main">
+                <p class="all_cate cate_title">All</p>
+                <p class="movies_cate cate_title">Movies</p>
+                <p class="series_cate cate_title">Series</p>
+                <p class="anime_cate cate_title">Animations</p>
+                <p class="shows_cate cate_title">TV Shows</p>
+                <form action="" class="searchbar" id="search-bar">
+                    <div class="search_input_content">
+                        <i class='bx bx-search searchicon'></i>
+                        <input class="searchinput" type="text" placeholder="search movie">
+                    </div>
+                    <i class='bx bx-x searchclose'></i>
+                </form>
+            </div>
+
+<!--=========== HERO SECTION =================-->
+
+            <h3 class="new_release">New Release</h3>
+
+            <div class="heroimg">
+
+                <div class="overlay">
+
+                    <img class="hero_img" src="images/photo (12).jpg" alt="hero image" srcset="">
+                
+                </div>
+
+                <div class="hero_content">
+
+                    <p class="hero_title">mesmerize: a film by mark williams</p>
+
+                    <div class="herodetails">
+                        <p class="hero_year">2020</p>
+                        <p class="hero_duration">142min</p>
+                        <p class="hero_genre1">action</p>
+                        <p class="genre2">adventure</p>
+                        <p class="hero_genre3">thriller</p>
+                    </div>
+
+                    <p class="hero_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nihil beatae qui architecto praesentium deserunt. Totam hic rerum fuga quas labore, soluta magni dicta molestiae, eius debitis architecto veniam aliquam distinctio aperiam libero dolore at cum facilis! Nemo blanditiis deserunt unde minus obcaecati dignissimos animi!</p>
+
+                    <div class="herobtns">
+
+                        <button class="herobtn1 herobtn">
+                            <i class='bx bx-play hero_play_btn'></i>
+                            <p>Watch Now</p>
+                        </button>
+
+                        <button class="herobtn2 herobtn">
+                            <i class='bx bxs-bookmark-plus hero_bookmark_btn'></i>
+                            <p>Add To List</p>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+<!--============== MOVIE LIST ================-->
+
+
+            <div class="popular">
+
+                <h3 class="popular_title">Popular</h3>
+
+                <div class="movie_list" id="movielist">
+
+                    <!-- <div class="movie_list_container" id="movie-list-container">
+
+                        <img class="movie_thumbnail" id="movie-thumbnail" src="images/Avatar.jpg" alt="Avatar">
+
+                        <p class="movie_list_title" id="movie-list-title">Avatar</p>
+
+                        <div class="movie_list_info" id="movie-list-info">
+                            <p class="year_of_release" id="year-of-release">2021</p>
+                            <p class="movie_list_duration" id="movie-list-duration">3h12m</p>
+                        </div>
+
+                    </div> -->
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="continue_watching">
+
+                <h3 class="continue_watching_title">Continue watching</h3>
+
+                <div class="movie_list" id="continue-watching">
+
+                    <!-- <div class="movie_list_container" id="movie-list-container">
+
+                        <img class="movie_thumbnail" id="movie-thumbnail" src="images/Avatar.jpg" alt="Avatar">
+
+                        <p class="movie_list_title" id="movie-list-title">Avatar</p>
+
+                        <div class="movie_list_info" id="movie-list-info">
+                            <p class="year_of_release" id="year-of-release">2021</p>
+                            <p class="movie_list_duration" id="movie-list-duration">3h12m</p>
+                        </div>
+
+                    </div> -->
+
+                </div>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+
+<!--========================== 3RD SECTION ==========================-->
+
+
+
+    <section class="user_rec">
+
+        <div class="user_rec_container">
+
+            <div class="usermain">
+
+                <div class="user_photo_container">
+                    <img class="user_photo" src="images/photo (1).png" alt="user photo" srcset="">
+                </div>
+
+                <div class="user_info">
+                    <p class="user_name">Sir Daechel</p>
+                    <p class="user_mail">dachael0852@gmail.com</p>
+                </div>
+
+            </div>
+
+            <div class="coming_soon">
+                <h3 class="coming_soon_title">Coming this week</h3>
+                <img class="coming_soon_img" src="images/photo (2).png" alt="coming this week">
+                <h4 class="coming_soon_movie_name">No Time To Die</h4>
+                <div class="coming_soon_movie_info">
+                    <p class="coming_soon_movie_info_genre">Action</p>
+                    <p class="coming_soon_movie_info_genre">Thriller</p>
+                </div>
+            </div>
+
+            <button class="remind_me">
+                <i class='bx bx-bell'></i>
+                <p class="remind_me_title">Remind me</p>
+            </button>
+
+            <div class="recently_added">
+                <h3 class="recently_added_title">Recently added</h3>
+                <img class="recently_added_img" src="images/photo (8).jpg" alt="recently added">
+                <h4 class="recently_added_movie_name">Free Guy</h4>
+                <div class="recently_added_movie_info">
+                    <p class="recently_added_movie_info_genre">Action</p>
+                    <p class="recently_added_movie_info_genre">Comedy</p>
+                </div>
+            </div>
+
+            <div class="follow_us">
+                <h3 class="follow_us_title">Follow Us:</h3>
+                <div class="socials">
+                    <i class='bx bxl-facebook social'></i>
+                    <i class='bx bxl-instagram social'></i>
+                    <i class='bx bxl-tiktok social'></i>
+                    <i class='bx bxl-gmail social'></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div class="account_data">
+
+        <div class="user_profile">
+            <i class='bx bxs-user'></i>
+            <div class="user_profile_name">Profile</div>
+        </div>
+    
+        <div class="nav_item">
+            <i class='bx bxs-cog'></i>
+            <p class="nav_name">Settings</p>
+        </div>
+    
+        <div class="nav_item">
+            <i class='bx bxs-info-circle'></i>
+            <p class="nav_name">Help</p>
+        </div>
+    
+        <div class="nav_footer_in_account_data">
+            <i class='bx bx-exit'></i>
+            <p class="logout">Logout</p>
+        </div>
+
+        <i class='bx bx-x account_close'></i>
+
+    </div>
+
+</main>
+
+
+<footer>
+    <div class="copyright">
+        <p class="copyright_text">Developed by Sir Daechel - &copy; 2023. All Right Reserved</p>
+    </div>
+</footer>
+
+
+<!-- js script -->
+    <script src="javascript/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</body>
+</html>
